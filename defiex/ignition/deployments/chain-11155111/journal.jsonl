@@ -1,2 +1,7 @@
 
 {"chainId":11155111,"type":"DEPLOYMENT_INITIALIZE"}
+{"artifactId":"WalletContractModule#WalletContract","constructorArgs":[],"contractName":"WalletContract","dependencies":[],"from":"0xe8967acebac88a7f3058cbe9c75f1f94464a26d2","futureId":"WalletContractModule#WalletContract","futureType":"NAMED_ARTIFACT_CONTRACT_DEPLOYMENT","libraries":{},"strategy":"basic","type":"DEPLOYMENT_EXECUTION_STATE_INITIALIZE","value":{"_kind":"bigint","value":"0"}}
+{"futureId":"WalletContractModule#WalletContract","networkInteraction":{"data":"0x","id":1,"type":"ONCHAIN_INTERACTION","value":{"_kind":"bigint","value":"0"}},"type":"NETWORK_INTERACTION_REQUEST"}
+{"futureId":"WalletContractModule#WalletContract","networkInteractionId":1,"nonce":10,"transaction":{"fees":{"maxFeePerGas":{"_kind":"bigint","value":"68795323516"},"maxPriorityFeePerGas":{"_kind":"bigint","value":"1000000000"}},"hash":"0xf356b8fcd02f764ac441969789fc987a3aa24cd743a9cb3438863b07afe3689f"},"type":"TRANSACTION_SEND"}
+{"futureId":"WalletContractModule#WalletContract","hash":"0xf356b8fcd02f764ac441969789fc987a3aa24cd743a9cb3438863b07afe3689f","networkInteractionId":1,"receipt":{"blockHash":"0x8e4d7eb8f2b2685ed6a71ba7bd1436dec903c9f127657e7e59b833fce6dd4f65","blockNumber":6862356,"contractAddress":"0x26b9e34d2e30B104dC4712a7714FE92b5989D9bB","logs":[],"status":"SUCCESS"},"type":"TRANSACTION_CONFIRM"}
+{"futureId":"WalletContractModule#WalletContract","result":{"address":"0x26b9e34d2e30B104dC4712a7714FE92b5989D9bB","type":"SUCCESS"},"type":"DEPLOYMENT_EXECUTION_STATE_COMPLETE"}

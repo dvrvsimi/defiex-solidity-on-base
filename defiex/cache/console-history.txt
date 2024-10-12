@@ -1,0 +1,6 @@
+clear
+const WalletContract = await ethers.getContractFactory("WalletContract");
+console.log("Token deployed to:", token.address);
+await token.deployed();
+const token = await TokenContract.deploy("Token Name", "TKN", initialSupply);
+const TokenContract = await ethers.getContractFactory("YourTokenContract");

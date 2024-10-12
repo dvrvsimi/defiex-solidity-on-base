@@ -15,7 +15,7 @@ async function main() {
 
   // Debug deposit function
   const depositAmount = hre.ethers.utils.parseEther("1");
-  const mockTokenAddress = "0x1234567890123456789012345678901234567890"; // Replace with a real token address
+  const mockTokenAddress = "0xE8967ACebAC88A7f3058CbE9c75f1f94464a26D2"; 
   await walletContract.deposit(mockTokenAddress, depositAmount);
   console.log("Deposited:", depositAmount.toString(), "to token:", mockTokenAddress);
 
